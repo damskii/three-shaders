@@ -1,13 +1,13 @@
 {
-  "name": "jam3-lesson-webgl-shader-threejs",
+  "name": "QCA3642-webgl-shader-threejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "QCA3642-webgl-shader-threejs - forked from https://github.com/Jam3/jam3-lesson-webgl-shader-threejs - Matt DesLauriers",
   "main": "index.js",
   "license": "MIT",
   "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
+    "name": "Damian Hills",
+    "email": "damian.hills@griffith.edu.au",
+    "url": "https://github.com/damskii"
   },
   "semistandard": {
     "globals": [
@@ -31,15 +31,15 @@
   },
   "scripts": {
     "test": "node test.js",
-    "start": "budo lib/index.js:bundle.js --live --dir app -- -t babelify -t brfs"
+    "start": "budo lib/index.js:bundle.js --host localhost --port 3000 --live --dir app -- -t babelify -t brfs"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/jam3-lesson-webgl-shader-threejs.git"
+    "url": "git://github.com/damskii/three-shaders.git"
   },
-  "homepage": "https://github.com/Jam3/jam3-lesson-webgl-shader-threejs",
+  "homepage": "https://github.com/damskii/three-shaders",
   "bugs": {
-    "url": "https://github.com/Jam3/jam3-lesson-webgl-shader-threejs/issues"
+    "url": "https://github.com/damskii/three-shaders"
   }
 }
